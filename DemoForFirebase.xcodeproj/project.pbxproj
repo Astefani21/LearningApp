@@ -10,6 +10,9 @@
 		4CBE0903BCBE68705CB6F5B3 /* Pods_DemoForFirebaseTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58F591A5CD02E35544623785 /* Pods_DemoForFirebaseTests.framework */; };
 		995C9DDEBA248A6D51D973B2 /* Pods_DemoForFirebase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2567908C52ECD4C90B60EE0D /* Pods_DemoForFirebase.framework */; };
 		ED18D66527601A5500035BC8 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18D66427601A5500035BC8 /* ContentModel.swift */; };
+		ED18D66827601C5A00035BC8 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = ED18D66627601C5800035BC8 /* data.json */; };
+		ED18D66927601C5A00035BC8 /* style.html in Resources */ = {isa = PBXBuildFile; fileRef = ED18D66727601C5A00035BC8 /* style.html */; };
+		ED18D66B27601E9400035BC8 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED18D66A27601E9400035BC8 /* Models.swift */; };
 		ED552AA92756D87B0084F2FC /* DemoForFirebaseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED552AA82756D87B0084F2FC /* DemoForFirebaseApp.swift */; };
 		ED552AAB2756D87B0084F2FC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED552AAA2756D87B0084F2FC /* HomeView.swift */; };
 		ED552AAD2756D8800084F2FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED552AAC2756D8800084F2FC /* Assets.xcassets */; };
@@ -47,6 +50,9 @@
 		C6BB0EC2007D8F2BFB21864B /* Pods_DemoForFirebase_DemoForFirebaseUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DemoForFirebase_DemoForFirebaseUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0CC428EE097F543BDB3CF07 /* Pods-DemoForFirebase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoForFirebase.debug.xcconfig"; path = "Target Support Files/Pods-DemoForFirebase/Pods-DemoForFirebase.debug.xcconfig"; sourceTree = "<group>"; };
 		ED18D66427601A5500035BC8 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		ED18D66627601C5800035BC8 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
+		ED18D66727601C5A00035BC8 /* style.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = style.html; sourceTree = "<group>"; };
+		ED18D66A27601E9400035BC8 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		ED552AA52756D87B0084F2FC /* DemoForFirebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoForFirebase.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED552AA82756D87B0084F2FC /* DemoForFirebaseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoForFirebaseApp.swift; sourceTree = "<group>"; };
 		ED552AAA2756D87B0084F2FC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -132,6 +138,8 @@
 		ED18D66127601A1600035BC8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ED18D66627601C5800035BC8 /* data.json */,
+				ED18D66727601C5A00035BC8 /* style.html */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 		ED18D66327601A2400035BC8 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				ED18D66A27601E9400035BC8 /* Models.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -325,6 +334,8 @@
 				ED552AB02756D8800084F2FC /* Preview Assets.xcassets in Resources */,
 				ED552AD32756D8FC0084F2FC /* GoogleService-Info.plist in Resources */,
 				ED552AAD2756D8800084F2FC /* Assets.xcassets in Resources */,
+				ED18D66927601C5A00035BC8 /* style.html in Resources */,
+				ED18D66827601C5A00035BC8 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +466,7 @@
 				ED552AAB2756D87B0084F2FC /* HomeView.swift in Sources */,
 				ED552AA92756D87B0084F2FC /* DemoForFirebaseApp.swift in Sources */,
 				ED18D66527601A5500035BC8 /* ContentModel.swift in Sources */,
+				ED18D66B27601E9400035BC8 /* Models.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
