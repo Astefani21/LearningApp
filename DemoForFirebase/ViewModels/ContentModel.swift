@@ -13,11 +13,17 @@ class ContentModel: ObservableObject {
     //Whatever view code is using this published object it will update accordingly
     @Published var modules = [Module]()
     
+    //Current Module, any UI referencing currentModule will update automatically
+    @Published var currentModule: Module?
+    var currentModuleIndex = 0
+    
     var styleData: Data?
     
     init() {
         getLocalData()
     }
+    
+    // MARK: - Data Methods
     
     func getLocalData() {
         
@@ -59,4 +65,22 @@ class ContentModel: ObservableObject {
         }
         
     }
+    
+    // MARK: - MOdule navigation methods
+    
+    func beginModule(_ moduleid:Int) {
+        
+        // Find the index for the module id
+        for index in 0..<modules.count {
+            if modules[index].id == moduleid {
+                // Found the matching module
+                currentModuleIndex = index
+                break
+            }
+        }
+        
+        // Set the current module
+        currentModule = modules[currentModuleIndex]
+    }
+    
 }

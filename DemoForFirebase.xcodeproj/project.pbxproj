@@ -21,6 +21,10 @@
 		ED552AC42756D8800084F2FC /* DemoForFirebaseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED552AC32756D8800084F2FC /* DemoForFirebaseUITests.swift */; };
 		ED552AC62756D8800084F2FC /* DemoForFirebaseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED552AC52756D8800084F2FC /* DemoForFirebaseUITestsLaunchTests.swift */; };
 		ED552AD32756D8FC0084F2FC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = ED552AD22756D8FC0084F2FC /* GoogleService-Info.plist */; };
+		EDC306DD27614DAF00B3BAB7 /* HomeViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC306DC27614DAF00B3BAB7 /* HomeViewRow.swift */; };
+		EDC306DF276278E300B3BAB7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC306DE276278E300B3BAB7 /* ContentView.swift */; };
+		EDC306E127627F7000B3BAB7 /* ContentViewRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC306E027627F7000B3BAB7 /* ContentViewRow.swift */; };
+		EDC306E32762B1B400B3BAB7 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC306E22762B1B400B3BAB7 /* ContentDetailView.swift */; };
 		EEC0D21FC38EA6CC33E74980 /* Pods_DemoForFirebase_DemoForFirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BB0EC2007D8F2BFB21864B /* Pods_DemoForFirebase_DemoForFirebaseUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -64,6 +68,10 @@
 		ED552AC32756D8800084F2FC /* DemoForFirebaseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoForFirebaseUITests.swift; sourceTree = "<group>"; };
 		ED552AC52756D8800084F2FC /* DemoForFirebaseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoForFirebaseUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		ED552AD22756D8FC0084F2FC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		EDC306DC27614DAF00B3BAB7 /* HomeViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewRow.swift; sourceTree = "<group>"; };
+		EDC306DE276278E300B3BAB7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EDC306E027627F7000B3BAB7 /* ContentViewRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewRow.swift; sourceTree = "<group>"; };
+		EDC306E22762B1B400B3BAB7 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		FAC7996F1F04878C583D1C8A /* Pods-DemoForFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoForFirebase.release.xcconfig"; path = "Target Support Files/Pods-DemoForFirebase/Pods-DemoForFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		FB051E5ACD1147393F8CBBBB /* Pods-DemoForFirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoForFirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-DemoForFirebaseTests/Pods-DemoForFirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -123,6 +131,10 @@
 			isa = PBXGroup;
 			children = (
 				ED552AAA2756D87B0084F2FC /* HomeView.swift */,
+				EDC306DC27614DAF00B3BAB7 /* HomeViewRow.swift */,
+				EDC306DE276278E300B3BAB7 /* ContentView.swift */,
+				EDC306E027627F7000B3BAB7 /* ContentViewRow.swift */,
+				EDC306E22762B1B400B3BAB7 /* ContentDetailView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -187,9 +199,9 @@
 				ED552AA82756D87B0084F2FC /* DemoForFirebaseApp.swift */,
 				ED18D65F27601A0B00035BC8 /* Views */,
 				ED18D66327601A2400035BC8 /* Models */,
+				ED18D66027601A1000035BC8 /* ViewModels */,
 				ED18D66227601A1D00035BC8 /* Helpers */,
 				ED18D66127601A1600035BC8 /* Resources */,
-				ED18D66027601A1000035BC8 /* ViewModels */,
 				ED552AD22756D8FC0084F2FC /* GoogleService-Info.plist */,
 				ED552AAC2756D8800084F2FC /* Assets.xcassets */,
 				ED552AAE2756D8800084F2FC /* Preview Content */,
@@ -464,7 +476,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ED552AAB2756D87B0084F2FC /* HomeView.swift in Sources */,
+				EDC306DD27614DAF00B3BAB7 /* HomeViewRow.swift in Sources */,
+				EDC306DF276278E300B3BAB7 /* ContentView.swift in Sources */,
+				EDC306E32762B1B400B3BAB7 /* ContentDetailView.swift in Sources */,
 				ED552AA92756D87B0084F2FC /* DemoForFirebaseApp.swift in Sources */,
+				EDC306E127627F7000B3BAB7 /* ContentViewRow.swift in Sources */,
 				ED18D66527601A5500035BC8 /* ContentModel.swift in Sources */,
 				ED18D66B27601E9400035BC8 /* Models.swift in Sources */,
 			);
