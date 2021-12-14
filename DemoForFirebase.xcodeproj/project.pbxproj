@@ -27,6 +27,7 @@
 		EDC306E32762B1B400B3BAB7 /* ContentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC306E22762B1B400B3BAB7 /* ContentDetailView.swift */; };
 		EDC306E52762B43400B3BAB7 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDC306E42762B43400B3BAB7 /* AVKit.framework */; };
 		EDC306E72762B53C00B3BAB7 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC306E62762B53C00B3BAB7 /* Constants.swift */; };
+		EDC306E927694B8F00B3BAB7 /* CodeTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC306E827694B8E00B3BAB7 /* CodeTextView.swift */; };
 		EEC0D21FC38EA6CC33E74980 /* Pods_DemoForFirebase_DemoForFirebaseUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C6BB0EC2007D8F2BFB21864B /* Pods_DemoForFirebase_DemoForFirebaseUITests.framework */; };
 /* End PBXBuildFile section */
 
@@ -76,6 +77,7 @@
 		EDC306E22762B1B400B3BAB7 /* ContentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentDetailView.swift; sourceTree = "<group>"; };
 		EDC306E42762B43400B3BAB7 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		EDC306E62762B53C00B3BAB7 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		EDC306E827694B8E00B3BAB7 /* CodeTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeTextView.swift; sourceTree = "<group>"; };
 		FAC7996F1F04878C583D1C8A /* Pods-DemoForFirebase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoForFirebase.release.xcconfig"; path = "Target Support Files/Pods-DemoForFirebase/Pods-DemoForFirebase.release.xcconfig"; sourceTree = "<group>"; };
 		FB051E5ACD1147393F8CBBBB /* Pods-DemoForFirebaseTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoForFirebaseTests.release.xcconfig"; path = "Target Support Files/Pods-DemoForFirebaseTests/Pods-DemoForFirebaseTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -141,6 +143,7 @@
 				EDC306DE276278E300B3BAB7 /* ContentView.swift */,
 				EDC306E027627F7000B3BAB7 /* ContentViewRow.swift */,
 				EDC306E22762B1B400B3BAB7 /* ContentDetailView.swift */,
+				EDC306E827694B8E00B3BAB7 /* CodeTextView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -488,6 +491,7 @@
 				EDC306E32762B1B400B3BAB7 /* ContentDetailView.swift in Sources */,
 				ED552AA92756D87B0084F2FC /* DemoForFirebaseApp.swift in Sources */,
 				EDC306E127627F7000B3BAB7 /* ContentViewRow.swift in Sources */,
+				EDC306E927694B8F00B3BAB7 /* CodeTextView.swift in Sources */,
 				ED18D66527601A5500035BC8 /* ContentModel.swift in Sources */,
 				ED18D66B27601E9400035BC8 /* Models.swift in Sources */,
 				EDC306E72762B53C00B3BAB7 /* Constants.swift in Sources */,
